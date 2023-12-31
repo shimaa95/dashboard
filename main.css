@@ -1,0 +1,88 @@
+html {
+  font-size: 62.5%;
+  background-color: #e6e6e6;
+}
+
+.wrpper {
+  width: 73rem;
+  display: grid;
+  gap: 2rem;
+  margin: 30rem auto;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 60rem 3rem;
+  gap: 1rem;
+}
+.left {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.icon {
+  display: flex;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+a {
+  width: 12rem;
+  text-align: center;
+  padding: 2rem 1em;
+  background-color: #2793ff;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-radius: 0.3em;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 45rem 1fr;
+  gap: 1rem;
+}
+
+.leftcol {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+.icon {
+  width: 8.7rem;
+  justify-content: space-between;
+}
+
+.leftcol p {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+.rightcol::before {
+  content: "";
+  background-color: #000;
+  display: block;
+
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  left: -1.5rem;
+  top: 0.5rem;
+}
+.rightcol {
+  align-self: center;
+
+  font-size: 1.4rem;
+  justify-self: center;
+  margin: 0;
+  position: relative;
+}
